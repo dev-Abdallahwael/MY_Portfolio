@@ -50,29 +50,29 @@ export default function Projects() {
               {/* Card Title */}
               <h3 className="text-xl font-bold mb-2 text-center ">Movies website</h3>
               {/* Card Content */}
-              <section className=' flex gap-2 flex-wrap py-1'>
+              <section className=' flex md:gap-2 gap-1 flex-wrap py-1'>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
+                      <div className='md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={react} alt="react" className='mr-2 w-8 h-8 rounded-lg'/><h5>React js</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Tcss} alt="tailwind" className='mr-2'/><h5>tailwind</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={fm} alt="Framer-motion" className='mr-2  w-8 h-8 rounded-lg'/><h5>Framer-motion</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className='md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={DB} alt="TMDB API" className='mr-2  w-8 h-8 rounded-lg'/><h5>TMDB API</h5>
                       </div>
 
-                        <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                        <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={FA} alt="font awesome" className='mr-2  w-8 h-8 rounded-lg'/><h5>Font awesome</h5>
                       </div>
@@ -88,9 +88,9 @@ export default function Projects() {
                 <li>Fully responsive design for all devices</li>
                 <li>Custom loading screens to keep the UX smooth</li>              
               </section>
-              <div className="flex gap-5 items-center">
-                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/MyMovies_Web.git"
-                className="text-gray-400 underline"><i className="fa-solid fa-link mr-2"></i>View the ptoject</a>
+              <div className="flex md:gap-5 gap-1 items-center">
+                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-1 md:mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/MyMovies_Web.git"
+                className="text-gray-400 underline"><i className="fa-solid fa-link mr-1 md:mr-2"></i>View the project</a>
               </div>
             </motion.div>
 
@@ -108,41 +108,41 @@ export default function Projects() {
               {/* Card Content */}
               <section className=' flex gap-2 flex-wrap py-1'>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={react} alt="react" className='mr-2 w-8 h-8 rounded-lg'/><h5>React js</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Tcss} alt="tailwind" className='mr-2'/><h5>tailwind</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Axios} alt="Axios" className='mr-2  w-8 h-8 rounded-lg'/><h5>Axios</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={ecomm} alt="E-commerce API" className='mr-2  w-8 h-8 rounded-lg'/><h5>E-commerce API</h5>
                       </div>
 
-                        <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                        <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={FA} alt="font awesome" className='mr-2  w-8 h-8 rounded-lg'/><h5>Font awesome</h5>
                       </div>
 
-                        <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                        <div className='md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Formik} alt="Formik" className='mr-2  w-8 h-8 rounded-lg'/><h5>Formik</h5>
                       </div>
                       
-                        <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                        <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Yup} alt="Yup" className='mr-2  w-8 h-8 rounded-lg'/><h5>YUP</h5>
                       </div>
-                        <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                        <div className='md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={npm} alt="npm" className='mr-2  w-8 h-8 rounded-lg'/><h5>npm Libraries</h5>
                       </div>
@@ -158,9 +158,9 @@ export default function Projects() {
                 <li>React Swiper For product sliders and smooth interactions</li>   
                 <li>React Hot Toast  For sleek, responsive notifications</li>    
               </section>
-              <div className="flex gap-5 items-center">
-                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/E-commerce.git"
-                className="text-gray-400 underline"><i className="fa-solid fa-link mr-2"></i>View the ptoject</a>
+              <div className="flex md:gap-5 gap-1 items-center">
+                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-1 md:mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/E-commerce.git"
+                className="text-gray-400 underline"><i className="fa-solid fa-link mr-1 md:mr-2"></i>View the project</a>
               </div>
             </motion.div>
 
@@ -179,36 +179,36 @@ export default function Projects() {
               {/* Card Content */}
               <section className=' flex gap-2 flex-wrap py-1'>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={html} alt="html" className='mr-2 w-8 h-8 rounded-lg'/><h5>HTML</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={css} alt="CSS" className='mr-2'/><h5>CSS</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className='md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={Bs} alt="Bs" className='mr-2  w-8 h-8 rounded-lg'/><h5>Bootstrap</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={js} alt="js" className='mr-2  w-8 h-8 rounded-lg'/><h5>JavaScript</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={JQ} alt="JQ" className='mr-2  w-8 h-8 rounded-lg'/><h5>JQuery</h5>
                       </div>
 
-                      <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                      <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={FA} alt="Font awesome" className='mr-2  w-8 h-8 rounded-lg'/><h5>Font awesome</h5>
                       </div>
-                     <div className=' px-3 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
+                     <div className=' md:px-3 px-1 py-1 border-gray-700 border-2 w-fit rounded-lg flex justify-center items-center  hover:border-red-700
                         transition-all duration-150 cursor-default hover:scale-105'>
                           <img src={api} alt="api" className='mr-2  w-8 h-8 rounded-lg'/><h5>Weather APi</h5>
                       </div>
@@ -221,9 +221,9 @@ export default function Projects() {
                 <li>View detailed weather information</li>
                 <li>Fully responsive design for all devices</li>
               </section>
-              <div className="flex gap-5 items-center">
-                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/weather-website-.git"
-                className="text-gray-400 underline"><i className="fa-solid fa-link mr-2"></i>View the ptoject</a>
+              <div className="flex md:gap-5 gap-1 items-center">
+                <h3 className=" font-semibold py-1"><i className="fa-brands fa-github mr-1 md:mr-2"></i>GitHub:</h3><a href="https://github.com/dev-Abdallahwael/weather-website-.git"
+                className="text-gray-400 underline"><i className="fa-solid fa-link mr-1 md:mr-2"></i>View the project</a>
               </div>
             </motion.div>
         </div>

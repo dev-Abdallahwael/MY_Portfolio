@@ -38,7 +38,7 @@ export default function About() {
                     text="I am a front-end developer specializing in building responsive, accessible, and high-performance web interfaces.With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I translate design concepts into interactive digital experiences.I am committed to writing clean, maintainable code and delivering seamless user experiences across all devices."
                     animateOn="view"
                     revealDirection="center"
-                    speed={250}
+                    speed={160}
                     />
                  <h3 className=' text-3xl font-bold py-5  text-red-700'>Skills & tools</h3>
                 <section className=' flex gap-3 flex-wrap'>

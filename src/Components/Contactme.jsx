@@ -55,7 +55,7 @@ export default function Contactme() {
 
                 <form action="https://formsubmit.co/abdallah2003wael@gmail.com" 
                       method="POST" 
-                      className='my-10 text-lg'>
+                      className='my-10 text-sm md:text-lg'>
                 
                 <div className='flex gap-5'>
                     <input type="text" name="name" id="" placeholder='Name' className=' text-black w-1/2 border-0 bg-slate-300 rounded-lg py-1 placeholder:text-sm placeholder:ps-2 placeholder:text-gray-800 focus:border-gray-800 transition-all duration-150' />
