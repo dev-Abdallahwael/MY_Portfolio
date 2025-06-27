@@ -30,9 +30,9 @@ export default function Projects() {
 
     id="projects" className="md:pb-5 pb-2">
       <motion.h1
-        initial={{opacity:0 , y:-100}}
+        initial={{opacity:0 , y:"-100%"}}
         whileInView={{opacity:1 ,y:0}}
-        transition={{duration:1.2 , delay: 1.1 , ease: 'easeIn'}}
+        transition={{duration:1 , delay: 1 , ease: 'easeOut'}}
         viewport={{once: true , amount: 0.20 }}  
       
       

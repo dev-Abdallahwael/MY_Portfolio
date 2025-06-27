@@ -9,8 +9,7 @@ import react from "../assets/reactlogo.svg"
 import next from "../assets/Nextjs.png"
 import git from "../assets/git.png"
 import figma from "../assets/figma.png"
-import myimg from "../assets/mypic.jpg"
-import DecryptedText from './DecryptedText';
+import myimg from "../assets/mypic.png"
 import { motion } from 'framer-motion';
 import fm from "../assets/framer-motion-logo.png"
 import FA from "../assets/fa.jpeg"
@@ -19,14 +18,16 @@ import Axios from "../assets/axios.png"
 import Formik from "../assets/Formik.png"
 import Yup from "../assets/yup.png"
 import npm from "../assets/img_npm.jpg"
+import BlurText from "../Animations/BlurText ";
+
 export default function About() {
   return (
     <>
           <motion.section 
           initial={{opacity:0 , y:80}}
           whileInView={{opacity:1 ,y:0}}
-          transition={{duration:1.2 , ease: 'easeInOut'}}
-          viewport={{once: true , amount: 0.40 }}  
+          transition={{duration:1.2 , ease: 'easeOut'}}
+          viewport={{once: true , amount: 0.25 }}  
           id="about"
           className='  py-3 md:py-16'>
             <div className=' grid grid-cols-12  gap-5 xl:gap-28 '>
@@ -34,12 +35,14 @@ export default function About() {
                 <div className=' col-span-12 md:col-span-7 space-y-5'>
                     <h3 className=' text-3xl font-bold py-5 text-red-700'>What I do</h3>
                
-                    <DecryptedText
-                    text="I am a front-end developer specializing in building responsive, accessible, and high-performance web interfaces.With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I translate design concepts into interactive digital experiences.I am committed to writing clean, maintainable code and delivering seamless user experiences across all devices."
-                    animateOn="view"
-                    revealDirection="center"
-                    speed={160}
-                    />
+
+                  <BlurText
+                  text="I am a front-end developer specializing in building responsive, accessible, and high-performance web interfaces.With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I translate design concepts into interactive digital experiences.I am committed to writing clean, maintainable code and delivering seamless user experiences across all devices."
+                  delay={90}
+                  animateBy="words"
+                  direction="top"
+                  className=" text-base md:text-xl"
+                />
                  <h3 className=' text-3xl font-bold py-5  text-red-700'>Skills & tools</h3>
                 <section className=' flex gap-3 flex-wrap'>
 
@@ -154,7 +157,7 @@ export default function About() {
                 </div>
 
                 <div className='col-span-12 md:col-span-5'>
-                    <img src={myimg} alt="my picture" className=' w-2/3  rounded-3xl mx-auto hover:scale-105 transition-all duration-150' />
+                    <img src={myimg} alt="my picture" className=' w-2/3  rounded-3xl mx-auto hover:scale-105 transition-all duration-150 hover:border-red-700 border-2 border-black' />
                 </div>
 
             </div>
