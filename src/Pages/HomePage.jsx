@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import About from '../Components/About'
 import Projects from '../Components/Projects'
-import Certificates from '../Components/certificates'
+import Certificates from '../Components/Certificates'
 import Contactme from '../Components/Contactme'
 export default function HomePage() {
   return (
